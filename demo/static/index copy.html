@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Solve Second Equation with One Unknown</title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="CSS/main.css" rel="stylesheet">
+        <script src="JS/main.js"></script>
+    </head>
+    <body>
+<!--       <div class="bg"></div>     --> 
+        <div class="flex-center">
+            <label class="font">
+                Input numbers into the boxes below, then click the 'Calculate' button.
+            </label>
+        </div>
+        <div class="flex-center">
+            <div>
+                <input class="specify_width" type="text" id='text1' required minlength="1">
+            </div>
+            <div>
+                <label class="specify_width font">x<sup>2</sup>+</label>
+            </div>
+            <div>
+                <input class="specify_width" type="text" id='text2' required minlength="1">
+            </div>
+            <div>
+                <label class="specify_width font">x+</label>
+            </div>
+            <div>
+                <input class="specify_width" type="text" id='text3' required minlength="1">
+            </div>
+            <div>
+                <label class="specify_width font">=0</label>
+            </div>
+        </div>
+        <div class="flex-center">
+            <button onclick="calculate()">Calculate</button>
+        </div>
+        <div class="flex-center">
+            <label class="flex-center" id="result"></label>
+        </div>
+    </body>
+</html>

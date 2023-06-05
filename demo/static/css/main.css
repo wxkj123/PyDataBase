@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Torus;
+    src: url(../font/Torus-Bold.otf);
+/*    src: url(../font/Torus-Regular.otf);
+//    src: url(../font/Torus-Light.otf);
+//    src: url(../font/Torus-SemiBold.otf);
+//    src: url(../font/Torus-Thin.otf);
+*/
+}
+.bg{
+    background:url(../image/Background.png)no-repeat;
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:-100;
+}
+.flex-center{
+    align-items:center;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+}
+.font{
+    font-family:'Torus','Google Sans','helvetica','Aiarl',sans-serif;
+    font-size:1.3em;
+    color: #fb7299;
+}
+.grid-center{
+    display:grid;
+    grid-auto-columns:auto;
+    justify-content:center;
+    grid-template:
+    [main-left] "a" 25vh [main-right]
+    [main-left] "b" 25vh [main-right]
+    [main-left] "c" 25vh [main-right]
+    [main-left] "d" 25vh [main-right];
+}
+.patternoverride{
+    align-items:end;
+}
+.shadow{
+    text-shadow:4px 4px 4px rgba(0,0,0,0.5);
+}
+.sizeoverride{
+    font-size:2em;
+}
+.specify_width{
+    width:5vw;
+    display:inline-block;
+}
